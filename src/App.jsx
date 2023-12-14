@@ -1,24 +1,14 @@
-//import { useState } from 'react'
-
 import './App.css'
+import Authenticate from "./authenticate";
+import SignUpForm from "./signupform";
 
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        
-      </div>
-
-      <h1></h1>
-
-      <div>
-        
-      </div>
-      
+      <Authenticate />
+      <SignUpForm />
     </>
-  )
+  );
 }
 
 export default App
